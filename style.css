@@ -78,3 +78,15 @@ body {
 .col-xs-3 {
   width: 25%;
 }
+
+.progress .laravel {
+  background-color: blueviolet;
+}
+
+.progress .mikrotik {
+  background-color: darksalmon;
+}
+
+.progress .ruijie {
+  background-color: chartreuse;
+}
