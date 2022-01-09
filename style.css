@@ -2,12 +2,41 @@ body {
   min-height: 3000px;
 }
 
+
+@font-face {
+  font-family: 'latiniaregular';
+  src: url('fonts/Latinia-webfont.woff') format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latiniablackregular';
+  src: url('fonts/LatiniaBlack-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+p,
+h5 {
+  font-family: "latiniaregular";
+}
+
+h2 {
+  font-family: "latiniablackregular";
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: rgb(202, 192, 192);
   background-image: url(img/BG-1.jpg);
   background-position: center;
   background-size: cover;
+  max-width: 100%;
 }
 
 section {
@@ -25,14 +54,13 @@ hr .style-four {
 }
 
 #education {
-  /* background-color: #a2d9ff; */
   background-image: url(img/bg_education.png);
   background-position: center;
   background-size: cover;
   margin-top: 5rem;
   margin-left: -2px;
-  padding-top: 3rem;
-  min-height: 500px;
+  padding-top: 5rem;
+  min-height: 700px;
 }
 
 .card {
@@ -103,4 +131,15 @@ hr .style-four {
 
 .progress .ruijie {
   background-color: chartreuse;
+}
+
+#workExperience {
+  background-image: url(img/bg_we-2.png);
+  background-position: center;
+  background-size: cover;
+  margin-top: 5rem;
+  margin-left: -2px;
+  padding-top: 6rem;
+  min-height: 50rem;
+
 }
